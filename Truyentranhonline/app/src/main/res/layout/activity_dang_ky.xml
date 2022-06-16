@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#000"
+    android:layout_height="match_parent"
+    >
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        app:title="Tài Khoản"
+        android:id="@+id/toolbardangky"
+        app:titleTextColor="#F0EFEF"
+        android:background="#3F51B5"
+        android:layout_height="?attr/actionBarSize"></android.support.v7.widget.Toolbar>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginBottom="50dp"
+                android:background="#969191"
+                android:layout_marginLeft="50dp"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="Đăng Ký"
+                    android:gravity="center"
+                    android:textStyle="italic|bold"
+                    android:background="#BBC3EB"
+                    android:textSize="25sp"
+                    android:textColor="#000"
+                    android:layout_height="wrap_content" />
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_height="wrap_content">
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:hint="Username"
+                        android:inputType="textPersonName|textAutoCorrect"
+                        android:digits="_qwertyuiopasdfghhjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM0123456789"
+                        android:id="@+id/username3"
+                        android:textColor="#000"
+                        android:textSize="18dp"
+                        android:layout_height="wrap_content" />
+                </android.support.design.widget.TextInputLayout>
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_height="wrap_content">
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:hint="Password"
+                        android:textColor="#000"
+                        android:id="@+id/password3"
+                        android:inputType="textPassword"
+                        android:textSize="18dp"
+                        android:layout_height="wrap_content" />
+                </android.support.design.widget.TextInputLayout>
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_height="wrap_content">
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:hint="Số Điện Thoại"
+                        android:textColor="#000"
+                        android:digits="0123456789"
+                        android:id="@+id/sodienthoai3"
+                        android:inputType="phone"
+                        android:textSize="18dp"
+                        android:layout_height="wrap_content" />
+                </android.support.design.widget.TextInputLayout>
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_height="wrap_content">
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:hint="Email"
+                        android:textColor="#000"
+                        android:id="@+id/email3"
+                        android:inputType="textEmailAddress"
+                        android:textSize="18dp"
+                        android:layout_height="wrap_content" />
+                </android.support.design.widget.TextInputLayout>
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_height="wrap_content">
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:hint="Địa Chỉ"
+                        android:textColor="#000"
+                        android:id="@+id/diachi3"
+                        android:textSize="18dp"
+                        android:layout_height="wrap_content" />
+
+                </android.support.design.widget.TextInputLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginBottom="25dp"
+                    android:layout_height="wrap_content">
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:text="Đăng Ký"
+                        android:layout_marginRight="50dp"
+                        android:id="@+id/btndangky3"
+                        android:background="#BBC3EB"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content" />
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:text="Hủy"
+                        android:id="@+id/huy"
+                        android:textColor="#000"
+                        android:background="#BBC3EB"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

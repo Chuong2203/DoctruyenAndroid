@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".coltroler.loaitruyen">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        app:title="Danh Sách Truyện"
+        android:background="#3F51B5"
+        app:titleTextColor="#F1F1F1"
+        android:id="@+id/toolbardstruyen"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.Toolbar>
+    <ListView
+        android:layout_width="match_parent"
+        android:id="@+id/lisviewloaitruyen"
+        android:layout_height="wrap_content">
+
+    </ListView>
+
+</LinearLayout>
